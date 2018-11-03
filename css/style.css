@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color: #5aaca6;
+}
+
+header>div:nth-child(1){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 40vw; 
+}
+
+header>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 40vw; 
+}
+
+header>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header input{
+    width: 35%;
+    border: none;
+}
+
+header button{
+    border: none;
+    border-radius: 100%;
+    background-color: orangered;
+}
+
+header>div:nth-child(2)>div:nth-child(2){
+    display: flex;
+    justify-content: flex-end; 
+}
+
+header a{
+    color: black;
+    text-decoration-color: none;
+}
+
+body>section:nth-child(2){
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+body>section:nth-child(2)>div:nth-child(1){
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+body>section:nth-child(2)>div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+    width: 6vw;
+}
+
+body>section:nth-child(2) button{
+    border: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+body>section:nth-child(3){
+    margin: 0;
+    height: 70vh;
+    width: 100vw;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>section:nth-child(3)>div{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body>section:nth-child(3)>div div{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    background-color: red;
+    border-radius: 10px;
+}
+
+body>section:nth-child(3) button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 100%;
+}
